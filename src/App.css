@@ -1,0 +1,40 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.hero-video {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-video__content {
+    position: relative;
+    z-index: 1;
+
+}
+
+.btn-over-video {
+    position: absolute;
+    bottom: 610px; /* Abstand zum unteren Rand des Videos */
+    left: 50%; /* In der Mitte positionieren */
+    transform: translateX(-50%);
+    z-index: 2; /* Über dem Video */
+}
+
+
+
+
